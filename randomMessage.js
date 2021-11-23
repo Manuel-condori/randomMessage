@@ -1,9 +1,9 @@
+//function that generates a random number between zero and the number passed as an argument.
 const generateNumRandom = num =>{
-    //console.log(num);
     return Math.floor(Math.random() * num);
 }
 
-//console.log(generateNumRandom(5));
+//objet containing the words of the message.
 
 const messageOfTheDay = {
     positiveVerbs : ['pray', 'meditate', 'to love', 'enjoy', 'rest'],
@@ -13,10 +13,11 @@ const messageOfTheDay = {
 
 let arrayMessages = [];
 
+
+//loop to generate the random messages.
 for (let part in messageOfTheDay){
 
     let numIndex = generateNumRandom(messageOfTheDay[part].length);
-    //console.log(numIndex);
     if (part === 'positiveVerbs'){
         arrayMessages.push(`one of the most important things is '${messageOfTheDay[part][numIndex]}'`);
     }else if(part === 'timeToDoIt'){
@@ -26,6 +27,7 @@ for (let part in messageOfTheDay){
     }
 }
 
+//function that print the message.
 const printMessage = array =>{
 
     console.log(array.join('\n'));
