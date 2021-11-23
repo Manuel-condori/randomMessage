@@ -2,10 +2,10 @@
 This project consists of a random message generator, the theme of the messages is about reflection and motivation.
 
 ## Table of content
-  * [General information](#Gneral-information)
-  * [Tecnologies] (#Tecnologies)
-  * [Setup] (#Setup)
-  * [Contact] (#Contact)
+  * [General information](#General-information)
+  * [Tecnologies](#Tecnologies)
+  * [Setup](#Setup)
+  * [Contact](#Contact)
 
 ## General information
 this project is part of the codecademy full-stack learning path.
