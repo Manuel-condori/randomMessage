@@ -1,4 +1,4 @@
-# Generator Message
+# Generator Message :speech_balloon:
 This project consists of a random message generator, the theme of the messages is about reflection and motivation.
 
 ## Table of content
